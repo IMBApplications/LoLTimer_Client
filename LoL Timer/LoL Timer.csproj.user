@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>C:\Users\Sommer\Desktop\LoL Timer\|ftp://csharp-paradise.de/|ftp://Steffen:fc!bayern%40csharp-paradise.de/|ftp://Steffen%40csharp-paradise.de/|ftp://csharp-paradise.de/INet/dev.csharp-paradise.de/LoLTimer/</PublishUrlHistory>
+    <InstallUrlHistory>http://dev.csharp-paradise.de/LoLTimer/</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>

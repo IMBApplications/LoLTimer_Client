@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="IMBApplication.Lol.Timer.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TopBlue" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LeftAlt#1</Value>
+    </Setting>
+    <Setting Name="BottomBlue" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LeftAlt#2</Value>
+    </Setting>
+    <Setting Name="TopRed" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LeftAlt#3</Value>
+    </Setting>
+    <Setting Name="BottomRed" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LeftAlt#4</Value>
+    </Setting>
+    <Setting Name="Dragon" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LeftAlt#5</Value>
+    </Setting>
+    <Setting Name="Baron" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LeftAlt#</Value>
+    </Setting>
+    <Setting Name="OverwriteTimer" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
