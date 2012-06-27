@@ -70,10 +70,19 @@ namespace IMBApplication.Lol.Timer.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("LeftAlt#")]
+        [global::System.Configuration.DefaultSettingValueAttribute("LeftAlt#6")]
         public string Baron {
             get {
                 return ((string)(this["Baron"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("LeftAlt#S")]
+        public string InitGame {
+            get {
+                return ((string)(this["InitGame"]));
             }
         }
         
@@ -83,6 +92,15 @@ namespace IMBApplication.Lol.Timer.Properties {
         public bool OverwriteTimer {
             get {
                 return ((bool)(this["OverwriteTimer"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("LeftAlt#R")]
+        public string Reset {
+            get {
+                return ((string)(this["Reset"]));
             }
         }
     }

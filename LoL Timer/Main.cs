@@ -39,7 +39,7 @@ namespace IMBApplication.Lol.Timer
             baron.Keys = Properties.Settings.Default.Baron.Split('#');
 
             ticker.Start();
-            ticker_Tick(null, null);
+            RefreshTimer();
 
             int x = (Screen.PrimaryScreen.Bounds.Width / 2) - this.Width / 2;
             this.Location = new Point(x, 0);
@@ -68,7 +68,7 @@ namespace IMBApplication.Lol.Timer
             }
 
             GlobalKeyIntercepted(keysDown);
-        } 
+        }
         #endregion
 
         private void GlobalKeyIntercepted(String keys)
@@ -76,65 +76,112 @@ namespace IMBApplication.Lol.Timer
             if (topBlue.Keys.ToList().TrueForAll(x => keys.Contains(x)))
             {
                 StartTopBlue();
+                return;
             }
 
             if (bottomBlue.Keys.ToList().TrueForAll(x => keys.Contains(x)))
             {
                 StartBottomBlue();
+                return;
             }
 
             if (topRed.Keys.ToList().TrueForAll(x => keys.Contains(x)))
             {
                 StartTopRed();
+                return;
             }
 
             if (bottomRed.Keys.ToList().TrueForAll(x => keys.Contains(x)))
             {
                 StartBottomRed();
+                return;
             }
 
             if (dragon.Keys.ToList().TrueForAll(x => keys.Contains(x)))
             {
                 StartDragon();
+                return;
             }
 
             if (baron.Keys.ToList().TrueForAll(x => keys.Contains(x)))
             {
                 StartBaron();
+                return;
             }
+
+            if (Properties.Settings.Default.InitGame.Split('#').ToList().TrueForAll(x => keys.Contains(x)))
+            {
+                StartGame();
+                return;
+            }
+
+            if (Properties.Settings.Default.Reset.Split('#').ToList().TrueForAll(x => keys.Contains(x)))
+            {
+                ResetTimer();
+                return;
+            }
+        }
+
+        private void StartGame()
+        {
+            this.topBlue.OverwriteTimer(60 + 55);
+            this.bottomBlue.OverwriteTimer(60 + 55);
+
+            this.topRed.OverwriteTimer(60 + 55);
+            this.bottomRed.OverwriteTimer(60 + 55);
+
+            this.dragon.OverwriteTimer(6 * 60);
+            this.baron.OverwriteTimer(15 * 60);
+        }
+
+        private void ResetTimer()
+        {
+            this.topBlue.ResetTimer();
+            this.bottomBlue.ResetTimer();
+
+            this.topRed.ResetTimer();
+            this.bottomRed.ResetTimer();
+
+            this.dragon.ResetTimer();
+            this.baron.ResetTimer();
         }
 
         private void StartTopBlue()
         {
-            this.topBlue.Timer = 5 * 60;
+            this.topBlue.SetTimer(5 * 60);
         }
 
         private void StartBottomBlue()
         {
-            this.bottomBlue.Timer = 5 * 60;
+            this.bottomBlue.SetTimer(5 * 60);
         }
 
         private void StartTopRed()
         {
-            this.topRed.Timer = 5 * 60;
+            this.topRed.SetTimer(5 * 60);
         }
 
         private void StartBottomRed()
         {
-            this.bottomRed.Timer = 5 * 60;
+            this.bottomRed.SetTimer(5 * 60);
         }
 
         private void StartDragon()
         {
-            this.dragon.Timer = 6 * 60;
+            this.dragon.SetTimer(6 * 60);
         }
 
         private void StartBaron()
         {
-            this.baron.Timer = 7 * 60;
+            this.baron.SetTimer(7 * 60);
         }
 
         private void ticker_Tick(object sender, EventArgs e)
+        {
+            RefreshTimer();
+        }
+
+        private void RefreshTimer()
         {
             lblTopBlue.Text = this.topBlue.Timer.ToString();
             lblBottomBlue.Text = this.bottomBlue.Timer.ToString();

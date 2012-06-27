@@ -46,49 +46,54 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Blue;
-            this.label1.Location = new System.Drawing.Point(7, 27);
+            this.label1.Location = new System.Drawing.Point(27, 59);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(28, 13);
+            this.label1.Size = new System.Drawing.Size(68, 31);
             this.label1.TabIndex = 0;
             this.label1.Text = "Blue";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Red;
-            this.label2.Location = new System.Drawing.Point(45, 27);
+            this.label2.Location = new System.Drawing.Point(190, 56);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(27, 13);
+            this.label2.Size = new System.Drawing.Size(74, 37);
             this.label2.TabIndex = 3;
             this.label2.Text = "Red";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DarkGoldenrod;
-            this.label3.Location = new System.Drawing.Point(82, 27);
+            this.label3.Location = new System.Drawing.Point(26, 183);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 13);
+            this.label3.Size = new System.Drawing.Size(123, 37);
             this.label3.TabIndex = 6;
             this.label3.Text = "Dragon";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Goldenrod;
-            this.label4.Location = new System.Drawing.Point(154, 27);
+            this.label4.Location = new System.Drawing.Point(26, 272);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(35, 13);
+            this.label4.Size = new System.Drawing.Size(103, 37);
             this.label4.TabIndex = 8;
             this.label4.Text = "Baron";
             // 
             // lblTopBlue
             // 
             this.lblTopBlue.AutoSize = true;
-            this.lblTopBlue.Location = new System.Drawing.Point(9, 13);
+            this.lblTopBlue.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTopBlue.Location = new System.Drawing.Point(30, 14);
             this.lblTopBlue.Name = "lblTopBlue";
-            this.lblTopBlue.Size = new System.Drawing.Size(25, 13);
+            this.lblTopBlue.Size = new System.Drawing.Size(59, 31);
             this.lblTopBlue.TabIndex = 9;
             this.lblTopBlue.Text = "000";
             this.lblTopBlue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -96,9 +101,10 @@
             // lblBottomBlue
             // 
             this.lblBottomBlue.AutoSize = true;
-            this.lblBottomBlue.Location = new System.Drawing.Point(9, 43);
+            this.lblBottomBlue.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBottomBlue.Location = new System.Drawing.Point(30, 105);
             this.lblBottomBlue.Name = "lblBottomBlue";
-            this.lblBottomBlue.Size = new System.Drawing.Size(25, 13);
+            this.lblBottomBlue.Size = new System.Drawing.Size(59, 31);
             this.lblBottomBlue.TabIndex = 10;
             this.lblBottomBlue.Text = "000";
             this.lblBottomBlue.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -106,9 +112,10 @@
             // lblTopRed
             // 
             this.lblTopRed.AutoSize = true;
-            this.lblTopRed.Location = new System.Drawing.Point(46, 13);
+            this.lblTopRed.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTopRed.Location = new System.Drawing.Point(192, 11);
             this.lblTopRed.Name = "lblTopRed";
-            this.lblTopRed.Size = new System.Drawing.Size(25, 13);
+            this.lblTopRed.Size = new System.Drawing.Size(71, 37);
             this.lblTopRed.TabIndex = 11;
             this.lblTopRed.Text = "000";
             this.lblTopRed.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -116,9 +123,10 @@
             // lblBottomRed
             // 
             this.lblBottomRed.AutoSize = true;
-            this.lblBottomRed.Location = new System.Drawing.Point(46, 43);
+            this.lblBottomRed.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBottomRed.Location = new System.Drawing.Point(192, 102);
             this.lblBottomRed.Name = "lblBottomRed";
-            this.lblBottomRed.Size = new System.Drawing.Size(25, 13);
+            this.lblBottomRed.Size = new System.Drawing.Size(71, 37);
             this.lblBottomRed.TabIndex = 12;
             this.lblBottomRed.Text = "000";
             this.lblBottomRed.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -126,9 +134,10 @@
             // lblDragon
             // 
             this.lblDragon.AutoSize = true;
-            this.lblDragon.Location = new System.Drawing.Point(124, 27);
+            this.lblDragon.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDragon.Location = new System.Drawing.Point(192, 183);
             this.lblDragon.Name = "lblDragon";
-            this.lblDragon.Size = new System.Drawing.Size(25, 13);
+            this.lblDragon.Size = new System.Drawing.Size(71, 37);
             this.lblDragon.TabIndex = 13;
             this.lblDragon.Text = "000";
             this.lblDragon.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -136,9 +145,10 @@
             // lblBaron
             // 
             this.lblBaron.AutoSize = true;
-            this.lblBaron.Location = new System.Drawing.Point(188, 27);
+            this.lblBaron.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBaron.Location = new System.Drawing.Point(192, 272);
             this.lblBaron.Name = "lblBaron";
-            this.lblBaron.Size = new System.Drawing.Size(25, 13);
+            this.lblBaron.Size = new System.Drawing.Size(71, 37);
             this.lblBaron.TabIndex = 14;
             this.lblBaron.Text = "000";
             this.lblBaron.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -152,7 +162,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(219, 65);
+            this.ClientSize = new System.Drawing.Size(313, 362);
             this.Controls.Add(this.lblBaron);
             this.Controls.Add(this.lblDragon);
             this.Controls.Add(this.lblBottomRed);
@@ -163,11 +173,11 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Main";
-            this.Opacity = 0.5D;
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "LoL Timer";
             this.TopMost = true;
             this.ResumeLayout(false);

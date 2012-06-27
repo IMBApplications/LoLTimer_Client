@@ -18,10 +18,16 @@
       <Value Profile="(Default)">LeftAlt#5</Value>
     </Setting>
     <Setting Name="Baron" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">LeftAlt#</Value>
+      <Value Profile="(Default)">LeftAlt#6</Value>
+    </Setting>
+    <Setting Name="InitGame" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LeftAlt#S</Value>
     </Setting>
     <Setting Name="OverwriteTimer" Type="System.Boolean" Scope="Application">
       <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Reset" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">LeftAlt#R</Value>
     </Setting>
   </Settings>
 </SettingsFile>

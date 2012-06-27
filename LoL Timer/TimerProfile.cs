@@ -21,15 +21,30 @@ namespace IMBApplication.Lol.Timer
 
                 return _timer;
             }
-            set
+            private set
             {
-                if (!IMBApplication.Lol.Timer.Properties.Settings.Default.OverwriteTimer && _timer > 0)
-                {
-                    return;
-                }
-
                 _timer = value;
             }
+        }
+
+        public void SetTimer(int timer)
+        {
+            if (!Properties.Settings.Default.OverwriteTimer && _timer > 0)
+            {
+                return;
+            }
+
+            this.Timer = timer;
+        }
+
+        public void OverwriteTimer(int timer)
+        {
+            this.Timer = timer;
+        }
+
+        public void ResetTimer()
+        {
+            this.Timer = 0;
         }
 
         public TimerProfile()
