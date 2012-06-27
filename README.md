@@ -6,7 +6,8 @@ Ein kleines Hilfsmittel für League of Legends, welches auf globale Tastenhooks 
 Runterladen kann man die aktuellste Version immer unter: http://dev.csharp-paradise.de/LoLTimer/index.html .
 
 Voreingestellt sind folgende Tastenkürzel:
-Alt(links) + s = Spiel starten
+
+Alt(links) + s = Spiel starten 
 
 Alt(links) + r = Alle Timer auf 0 setzen
 
