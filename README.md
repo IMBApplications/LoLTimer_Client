@@ -16,3 +16,4 @@ Alt(links) + 5 = Dragon
 Alt(links) + 6 = Baron
 
 in der LoL Timer.exe.config kann man diese Einstellung aber ändern, einfach die Tasten mit '#' trennen.
+as
